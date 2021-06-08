@@ -1,0 +1,42 @@
+h1{
+    margin-left: 500px;
+    color: chartreuse;
+}
+
+.bg{
+    background-color: chocolate;
+}
+.header{
+    background-color: slategrey;
+    display:flex;
+    justify-content: space-between;
+}
+
+h2{
+    color: rgb(158, 218, 18);
+    margin-left: 450px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    position: relative;   
+}
+
+.item p{
+    position: absolute;
+    top:60%;
+    left: 60%;
+    transform: translate(-60%,-60%);
+    opacity: 0;
+}
+
+
+.item:hover p{
+opacity: 1;
+}
+
